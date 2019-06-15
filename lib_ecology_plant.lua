@@ -881,7 +881,7 @@ local S = lib_ecology.intllib
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_cactus_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.cactus_01, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else

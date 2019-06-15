@@ -244,7 +244,7 @@ lib_ecology.register_tree = function(name)
 
 			local rnum = math.random(1,2)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_cactus_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.cactus_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
 				minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			else
@@ -517,22 +517,22 @@ lib_ecology.register_tree("palm_01")
 			end
 
 			--minetest.place_schematic({x = pos.x - 3, y = pos.y - 1, z = pos.z - 3}, tree_name, "random", nil, false)
-			minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_01, "random", nil, true, "place_center_x, place_center_z")
+			minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_01, "random", nil, true, "place_center_x, place_center_z")
 			local rnum = math.random(1,7)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_06, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 7 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_acacia_07, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_acacia_07, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -723,15 +723,15 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,5)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_apple_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_apple_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_apple_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_apple_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_apple_large_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_apple_large_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_apple_large_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_apple_large_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_apple_large_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_apple_large_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -946,9 +946,9 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,2)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_ash_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_ash_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_ash_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_ash_02, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -1139,17 +1139,17 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,6)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_aspen_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_aspen_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_aspen_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_aspen_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_aspen_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_aspen_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_aspen_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_aspen_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_aspen_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_aspen_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_aspen_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_aspen_06, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -1372,11 +1372,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_bamboo_01_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_bamboo_01_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_bamboo_01_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_bamboo_01_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_bamboo_01_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_bamboo_01_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -1695,13 +1695,13 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,4)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_baobab_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_baobab_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_baobab_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_baobab_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_baobab_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_baobab_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_baobab_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_baobab_04, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -1892,15 +1892,15 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,5)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_large_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_large_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_large_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_large_02, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -2091,15 +2091,15 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,5)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_southern_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_southern_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_southern_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_southern_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_southern_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_southern_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_southern_large_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_southern_large_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_beech_southern_large_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_beech_southern_large_02, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -2290,13 +2290,13 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,4)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_birch_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_birch_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_birch_large_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_birch_large_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_birch_large_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_birch_large_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_birch_large_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_birch_large_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -2585,11 +2585,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cedar_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cedar_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cedar_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cedar_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cedar_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cedar_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -2900,7 +2900,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cherry, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cherry, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -3109,9 +3109,9 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,2)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_chestnut_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_chestnut_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_chestnut_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_chestnut_02, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -3302,7 +3302,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_clementine, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_clementine, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -3511,19 +3511,19 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,7)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_06, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 7 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_conifer_07, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_conifer_07, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -3714,11 +3714,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cypress_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cypress_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cypress_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cypress_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_cypress_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_cypress_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -4296,7 +4296,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_ebony, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_ebony, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -4489,9 +4489,9 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,2)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_eucalyptus_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_eucalyptus_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_eucalyptus_large_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_eucalyptus_large_01, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -5037,17 +5037,17 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,6)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_coast_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_coast_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_coast_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_coast_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_coast_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_coast_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_coast_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_coast_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_coast_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_coast_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_coast_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_coast_06, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -5238,17 +5238,17 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,6)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_doug_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_doug_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_doug_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_doug_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_doug_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_doug_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_doug_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_doug_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_doug_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_doug_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_doug_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_doug_06, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -5439,17 +5439,17 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,6)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_fir_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_fir_06, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -5664,7 +5664,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_frost, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_frost, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -6050,7 +6050,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_ipe_yellow, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_ipe_yellow, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -6455,7 +6455,7 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_lemon, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_lemon, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -6664,7 +6664,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mahogany, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mahogany, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -6857,17 +6857,17 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,6)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mangrove_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mangrove_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mangrove_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mangrove_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mangrove_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mangrove_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mangrove_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mangrove_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mangrove_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mangrove_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_mangrove_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_mangrove_06, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -7132,9 +7132,9 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,2)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_maple_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_maple_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_maple_large_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_maple_large_01, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -7534,11 +7534,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -7752,11 +7752,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_red_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_red_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_red_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_red_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_red_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_red_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -7970,11 +7970,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_southern_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_southern_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_southern_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_southern_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_oak_southern_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_oak_southern_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -8188,7 +8188,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_orange, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_orange, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -8405,11 +8405,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_coconut_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_coconut_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_coconut_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_coconut_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_coconut_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_coconut_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -8623,15 +8623,15 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,5)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_date_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_date_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_date_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_date_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_date_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_date_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_date_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_date_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_palm_date_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_palm_date_05, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -10706,11 +10706,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -10901,15 +10901,15 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,5)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_small_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_small_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_small_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_small_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_small_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_small_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_small_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_small_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_poplar_small_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_poplar_small_05, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -11100,9 +11100,9 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,2)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_redwood_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_redwood_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_redwood_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_redwood_02, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -11293,11 +11293,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_redwood_coast_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_redwood_coast_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_redwood_coast_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_redwood_coast_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_redwood_coast_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_redwood_coast_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -11488,13 +11488,13 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,4)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_rubber_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_rubber_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_rubber_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_rubber_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_rubber_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_rubber_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_rubber_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_rubber_04, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -11698,7 +11698,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_sakura, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_sakura, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
@@ -11921,19 +11921,19 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,7)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_sequoia_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_sequoia_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_sequoia_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_sequoia_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_sequoia_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_sequoia_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_sequoia_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_sequoia_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_sequoia_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_sequoia_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_sequoia_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_sequoia_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 7 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_sequoia_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_sequoia_04, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -12124,19 +12124,19 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,7)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_06, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 7 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_07, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_07, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -12350,25 +12350,25 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,10)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_04, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 5 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_05, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_05, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 6 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_06, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_06, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 7 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_spruce_sitka_07, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_spruce_sitka_07, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 8 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_spruce_sitka_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_spruce_sitka_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 9 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_spruce_sitka_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_spruce_sitka_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 10 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_giant_spruce_sitka_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_giant_spruce_sitka_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -12582,13 +12582,13 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,4)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_teak_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_teak_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_teak_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_teak_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_teak_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_teak_03, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 4 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_teak_04, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_teak_04, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -12779,11 +12779,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_01_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_01_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_01_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_01_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_01_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_01_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -12974,11 +12974,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_02_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_02_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_02_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_02_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_02_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_02_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -13169,11 +13169,11 @@ lib_ecology.register_tree("palm_01")
 
 			local rnum = math.random(1,3)
 			if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_03_01, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_03_01, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 2 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_03_02, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_03_02, "random", nil, true, "place_center_x, place_center_z")
 			elseif rnum == 3 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_willow_03_03, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_willow_03_03, "random", nil, true, "place_center_x, place_center_z")
 			else
 				
 			end
@@ -13365,7 +13365,7 @@ lib_ecology.register_tree("palm_01")
 
 			--local rnum = math.random(1,2)
 			--if rnum == 1 then
-				minetest.place_schematic(pos, lib_ecology.schem_tree_yellow_healing, "random", nil, true, "place_center_x, place_center_z")
+				minetest.place_schematic(pos, lib_ecology.schem.tree_yellow_healing, "random", nil, true, "place_center_x, place_center_z")
 			--elseif rnum == 2 then
 				--minetest.place_schematic(pos, schematic, "random", nil, true, "place_center_x, place_center_z")
 			--else
